@@ -1,0 +1,4 @@
+Rails support 
+1.My SQL
+2.PostgresSQL
+3.SQLITE3(default)
