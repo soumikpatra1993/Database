@@ -1,0 +1,34 @@
+CREATE TABLE Employee
+(
+EMPID int,
+Name varchar(255),
+Title varchar(255),
+);
+CREATE TABLE department(
+EMPID int,
+name varchar(255),
+location varchar(225)
+);
+INSERT INTO Employee(EMPID,name,title)
+VALUES (114334,'soumik','Developer');
+VALUES (114335,'soumik1','ASE');
+VALUES (114336,'soumik2','ASE');
+VALUES (114337,'soumik3','ASE');
+VALUES (114338,'soumik4','Developer');
+VALUES (114339,'soumik5','ASE');
+VALUES (114340,'soumik6','ASE');
+VALUES (114341,'soumik7','Developer');
+VALUES (114342,'soumik8','ASE');
+VALUES (114343,'soumik9','ASE');
+INSERT INTO department(EMPID,name,location)
+VALUES (114334,'soumik','bangalore');
+VALUES (114334,'soumik','bangalore');
+VALUES (114334,'soumik','bangalore');
+VALUES (114334,'soumik','bangalore');
+VALUES (114334,'soumik','bangalore');
+ALTER TABLE department
+ADD age int
+select * FROM department
+where age>=18
+select * FROM Employee 
+WHERE title = 'Developer'
